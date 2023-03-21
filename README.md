@@ -45,7 +45,7 @@
 
 ```
 const arr = [];
-document.querySelectorAll(".as-imagegrid-item-title").forEach((item) => {
+document.querySelectorAll(".as-imagegrid-item").forEach((item) => {
   arr.push(item.innerText.replace("\nSupport", ""));
 });
 console.log(arr);
@@ -88,7 +88,7 @@ document.querySelector(".accordion-homepage").appendChild(section);   //add sect
 
 ![My Output](./Answer-ss/op3.png)
 
-4. Webiste Name: [OnePlus](https://www.oneplus.in/support)
+4. Webiste Name: [OnePlus](https://service.oneplus.com/in/contact)
 
 ### Topics
 
@@ -109,8 +109,7 @@ document.querySelector(".accordion-homepage").appendChild(section);   //add sect
 ### Solution :
 
 ```
-document.querySelector(".customer-support a").innerText = "+91 6366256689";
-
+document.querySelector(".contactUs--item .item--subtitle").innerText = "+91 6366256689";
 ```
 
 ### My Output
@@ -272,7 +271,7 @@ remove(lang);
 ### Solution :
 
 ```
-const text = document.querySelector(".display-heading-1");
+const text = document.querySelector(".text-color-white");
 text.style.color = "#b1361e";
 text.style.fontFamily = "monospace";
 ```
@@ -397,7 +396,7 @@ Target the top description and change “Matching developers with great companie
 ### Solution :
 
 ```
-const desc = document.querySelector(".fl-heading .fl-heading-text");
+const desc = document.querySelector(".hr_container .home22-intro-title");
 desc.innerHTML = "JSBOOTCAMP"
 desc.style.fontSize = "2rem";
 ```
@@ -492,7 +491,7 @@ document.querySelector(".section-title_title__VEDfK").innerHTML = "Start with Sc
 
 ![My Output](./Answer-ss/op16.png)
 
-17. Webiste Name: [Sony](https://www.sony.co.in/)
+17. Webiste Name: [Sony](https://www.sony.co.in/electronics/televisions/a80k-a83k-a84k-series?cpint=homepage_primary_tout-Primary%20Tout-en_GL-responsivegrid_structure_top_primarytout_copy_1)
 
 ### Topics
 
